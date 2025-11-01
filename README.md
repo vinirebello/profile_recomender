@@ -1,70 +1,65 @@
-# Getting Started with Create React App
+# Projeto: Analisador de Perfis (Simulador)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🎯 Sobre o Projeto
 
-## Available Scripts
+Este projeto foi desenvolvido como um sistema de análise de perfis, simulando uma ferramenta de pesquisa. A aplicação permite que um usuário (recrutador) preencha um formulário detalhando os requisitos da vaga, como nível de escolaridade, tempo de experiência e conhecimentos obrigatórios.
 
-In the project directory, you can run:
+Ao enviar o formulário, o front-end consome uma API em Flask que, por sua vez, analisa e filtra uma base de candidatos, retornando os perfis mais compatíveis.
 
-### `npm start`
+### O Desafio: Dados Reais vs. Dados Simulados
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O conceito original do projeto previa a integração com uma LLM (Large Language Model) ou um serviço de busca ("protocolo MCP") para analisar dados reais e públicos do LinkedIn.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+No entanto, devido às fortes restrições técnicas e de Termos de Serviço da API do LinkedIn (que não permite a busca aberta de perfis de terceiros), esta versão do projeto foca na **arquitetura do sistema**. Para isso, utilizamos um **banco de dados simulado (um arquivo `profile_data.json`)** com candidatos fictícios para que a lógica de "match" possa ser desenvolvida e testada de forma funcional.
 
-### `npm test`
+## ✨ Funcionalidades Principais
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* **Formulário de Busca Detalhado:** Interface em React para inserir os requisitos da vaga.
+* **Consumo de API:** Comunicação assíncrona entre front-end e back-end.
+* **API RESTful:** Back-end em Flask com endpoint `/api/recommend` para processar as requisições.
+* **Lógica de "Match":** Script em Python que filtra os perfis do JSON com base nos critérios recebidos.
+* **Conversão de Dados:** O front-end trata os inputs de texto (ex: "Python, React, SQL") e os envia como arrays JSON (ex: `["Python", "React", "SQL"]`).
 
-### `npm run build`
+## 🛠️ Tecnologias Utilizadas
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+* **Front-End:**
+    * React.js
+    * JavaScript (ES6+)
+    * Fetch API
+* **Back-End:**
+    * Python 3
+    * Flask
+    * Flask-CORS
+* **Formato de Dados:**
+    * JSON
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Como Executar o Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Para rodar este projeto localmente, você precisará de dois terminais: um para o back-end (Flask) e outro para o front-end (React).
 
-### `npm run eject`
+### Pré-requisitos
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+* [Node.js](https://nodejs.org/en/) (que inclui o `npm`)
+* [Python 3](https://www.python.org/downloads/) (que inclui o `pip`)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 1. Back-End (Servidor Flask)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# 1. Clone o repositório
+git clone [URL-DO-SEU-REPOSITORIO]
+cd [PASTA-DO-PROJETO]/backend  # Navegue até a pasta do back-end
 
-## Learn More
+# 2. (Opcional, mas recomendado) Crie um ambiente virtual
+python -m venv venv
+source venv/bin/activate  # No Windows: .\venv\Scripts\activate
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# 3. Instale as dependências
+pip install Flask flask-cors
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# 4. Rode o servidor
+# (Assumindo que seu arquivo se chama 'app.py')
+python app.py
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# O servidor estará rodando em http://localhost:5001
