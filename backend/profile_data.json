@@ -1,0 +1,282 @@
+[
+    {
+        "id": 1,
+        "nome": "Ana Silva",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 5,
+        "conhecimentos": ["Python", "Flask", "React", "SQL"]
+    },
+    {
+        "id": 2,
+        "nome": "Bruno Costa",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 2,
+        "conhecimentos": ["JavaScript", "React", "Node.js"]
+    },
+    {
+        "id": 3,
+        "nome": "Carla Dias",
+        "escolaridade": "Doutorado",
+        "experiencia_anos": 8,
+        "conhecimentos": ["Python", "Machine Learning", "TensorFlow", "Pandas"]
+    },
+    {
+        "id": 4,
+        "nome": "Daniel Moreira",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 3,
+        "conhecimentos": ["Java", "Spring Boot", "SQL", "Git"]
+    },
+    {
+        "id": 5,
+        "nome": "Fernanda Lima",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 10,
+        "conhecimentos": ["C#", ".NET", "Azure", "SQL Server", "React"]
+    },
+    {
+        "id": 6,
+        "nome": "Gustavo Oliveira",
+        "escolaridade": "Técnico",
+        "experiencia_anos": 1,
+        "conhecimentos": ["HTML", "CSS", "JavaScript", "jQuery"]
+    },
+    {
+        "id": 7,
+        "nome": "Helena Martins",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 6,
+        "conhecimentos": ["Python", "Django", "PostgreSQL", "Docker", "AWS"]
+    },
+    {
+        "id": 8,
+        "nome": "Igor Santos",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 4,
+        "conhecimentos": ["JavaScript", "Vue.js", "Node.js", "MongoDB"]
+    },
+    {
+        "id": 9,
+        "nome": "Juliana Pereira",
+        "escolaridade": "Ensino Médio",
+        "experiencia_anos": 7,
+        "conhecimentos": ["PHP", "Laravel", "MySQL", "React", "Git"]
+    },
+    {
+        "id": 10,
+        "nome": "Lucas Ferreira",
+        "escolaridade": "Doutorado",
+        "experiencia_anos": 12,
+        "conhecimentos": ["R", "Python", "Data Science", "Scikit-learn", "Tableau"]
+    },
+    {
+        "id": 11,
+        "nome": "Marcos Andrade",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 5,
+        "conhecimentos": ["Ruby", "Ruby on Rails", "PostgreSQL", "Heroku"]
+    },
+    {
+        "id": 12,
+        "nome": "Natália Ramos",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 7,
+        "conhecimentos": ["Swift", "iOS Development", "Objective-C", "Firebase"]
+    },
+    {
+        "id": 13,
+        "nome": "Otávio Mendes",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 4,
+        "conhecimentos": ["Kotlin", "Android Development", "Java", "SQLite"]
+    },
+    {
+        "id": 14,
+        "nome": "Patrícia Barbosa",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 2,
+        "conhecimentos": ["JavaScript", "TypeScript", "Angular", "Node.js"]
+    },
+    {
+        "id": 15,
+        "nome": "Rafael Azevedo",
+        "escolaridade": "Técnico",
+        "experiencia_anos": 6,
+        "conhecimentos": ["DevOps", "Docker", "Kubernetes", "AWS", "Terraform"]
+    },
+    {
+        "id": 16,
+        "nome": "Sandra Nogueira",
+        "escolaridade": "Doutorado",
+        "experiencia_anos": 15,
+        "conhecimentos": ["C++", "Engenharia de Software", "Algoritmos", "Linux"]
+    },
+    {
+        "id": 17,
+        "nome": "Tiago Valente",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 3,
+        "conhecimentos": ["Go", "Microserviços", "Docker", "Google Cloud"]
+    },
+    {
+        "id": 18,
+        "nome": "Vanessa Ribeiro",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 9,
+        "conhecimentos": ["Gestão de Projetos", "Scrum", "Agile", "Jira"]
+    },
+    {
+        "id": 19,
+        "nome": "William Farias",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 5,
+        "conhecimentos": ["Python", "Pandas", "NumPy", "Jupyter", "SQL"]
+    },
+    {
+        "id": 20,
+        "nome": "Yasmin Gomes",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 1,
+        "conhecimentos": ["React Native", "JavaScript", "Firebase", "Expo"]
+    },
+    {
+        "id": 21,
+        "nome": "Alan Peixoto",
+        "escolaridade": "Técnico",
+        "experiencia_anos": 8,
+        "conhecimentos": ["Redes", "Segurança da Informação", "Linux", "Firewall"]
+    },
+    {
+        "id": 22,
+        "nome": "Beatriz Lopes",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 4,
+        "conhecimentos": ["UI/UX Design", "Figma", "Adobe XD", "HTML", "CSS"]
+    },
+    {
+        "id": 23,
+        "nome": "Cauã Morais",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 6,
+        "conhecimentos": ["Java", "Kafka", "Spring Boot", "Cassandra", "Microserviços"]
+    },
+    {
+        "id": 24,
+        "nome": "Débora Rocha",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 11,
+        "conhecimentos": ["Business Intelligence", "Power BI", "SQL Server", "ETL"]
+    },
+    {
+        "id": 25,
+        "nome": "Elias Castro",
+        "escolaridade": "Doutorado",
+        "experiencia_anos": 14,
+        "conhecimentos": ["Inteligência Artificial", "Deep Learning", "PyTorch", "Visão Computacional"]
+    },
+    {
+        "id": 26,
+        "nome": "Fátima Correia",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 7,
+        "conhecimentos": ["C#", ".NET Core", "Entity Framework", "SQL", "Azure"]
+    },
+    {
+        "id": 27,
+        "nome": "Gabriel Pinto",
+        "escolaridade": "Ensino Médio",
+        "experiencia_anos": 3,
+        "conhecimentos": ["WordPress", "PHP", "MySQL", "Elementor", "SEO"]
+    },
+    {
+        "id": 28,
+        "nome": "Heloísa Cunha",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 2,
+        "conhecimentos": ["JavaScript", "React", "Next.js", "Tailwind CSS"]
+    },
+    {
+        "id": 29,
+        "nome": "Ícaro Bernardes",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 5,
+        "conhecimentos": ["Rust", "Sistemas Embarcados", "C", "Linux Kernel"]
+    },
+    {
+        "id": 30,
+        "nome": "Jéssica Alves",
+        "escolaridade": "Técnico",
+        "experiencia_anos": 4,
+        "conhecimentos": ["QA", "Testes Automatizados", "Selenium", "Cypress", "Jira"]
+    },
+    {
+        "id": 31,
+        "nome": "Kevin Drummond",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 9,
+        "conhecimentos": ["Salesforce", "Apex", "Visualforce", "SOQL"]
+    },
+    {
+        "id": 32,
+        "nome": "Laura Melo",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 3,
+        "conhecimentos": ["Python", "Flask", "MongoDB", "Docker"]
+    },
+    {
+        "id": 33,
+        "nome": "Miguel Bastos",
+        "escolaridade": "Doutorado",
+        "experiencia_anos": 10,
+        "conhecimentos": ["Scala", "Spark", "Hadoop", "Engenharia de Dados"]
+    },
+    {
+        "id": 34,
+        "nome": "Nina Cardoso",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 6,
+        "conhecimentos": ["Elixir", "Phoenix", "PostgreSQL", "GraphQL"]
+    },
+    {
+        "id": 35,
+        "nome": "Oscar Schmidt",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 8,
+        "conhecimentos": ["PHP", "Symfony", "Doctrine", "RabbitMQ"]
+    },
+    {
+        "id": 36,
+        "nome": "Pâmela Dias",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 2,
+        "conhecimentos": ["HTML", "CSS", "JavaScript", "Sass", "Bootstrap"]
+    },
+    {
+        "id": 37,
+        "nome": "Quintino Borges",
+        "escolaridade": "Técnico",
+        "experiencia_anos": 12,
+        "conhecimentos": ["Manutenção de Hardware", "Redes", "Windows Server"]
+    },
+    {
+        "id": 38,
+        "nome": "Roberta Vasconcelos",
+        "escolaridade": "Pós-graduação",
+        "experiencia_anos": 7,
+        "conhecimentos": ["Product Management", "Metodologias Ágeis", "Roadmap", "UX"]
+    },
+    {
+        "id": 39,
+        "nome": "Silas Malafaia",
+        "escolaridade": "Graduação",
+        "experiencia_anos": 5,
+        "conhecimentos": ["Node.js", "Express", "React", "MongoDB", "AWS Lambda"]
+    },
+    {
+        "id": 40,
+        "nome": "Tânia Meireles",
+        "escolaridade": "Mestrado",
+        "experiencia_anos": 9,
+        "conhecimentos": ["Data Science", "Machine Learning", "R", "SQL", "Estatística"]
+    }
+]
